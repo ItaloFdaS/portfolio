@@ -1,0 +1,379 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+    
+    line-height: 1;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    text-shadow: -1px -1px 0px #000;
+    color: white;
+    font-weight: bold;
+    background-color: #222222;
+}
+
+
+.container-header {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+     
+    
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 20px;
+    text-align: center;
+    
+    
+}
+
+.container-skills {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.178);
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+   
+}
+
+
+nav li {
+
+    display: inline;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0 0 0 15px;
+    padding-right: 20px;
+}
+
+nav a {
+        
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    text-shadow: -1px -1px 0px #000;
+    text-align: right;
+    padding: 20px;
+    font-size: 25px;
+}
+
+nav a:hover {
+    color: #C78C19;
+} 
+
+.titulo-principal {
+    min-height: 730px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1), #222222), url("../Portifolio/imagens/imgsuperior.jpg");
+    background-position: 0px 0px, 38% 45%;
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+   
+}
+
+
+.apresentacao {
+    padding-top: 290px;
+    font-size: 45px;
+    font-style: italic;
+}
+
+.sobremim{
+    
+    padding: 20px;
+    background-image: linear-gradient(to bottom, rgb(34, 34, 34), rgba(24, 24, 24, 0.89));
+    background-size: 100%;
+    
+}
+
+.titulo-sobre {
+    font-style: italic;
+    color: #cccaca;
+    font-weight: bold;
+}
+
+.resumo {
+    padding-top: 30px;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-align: justify;
+        
+}
+
+#ancoraskills {
+    min-height: 480px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1), #222222), linear-gradient(0deg, rgba(0, 0, 0, 0.1), #222222), url("./imagens/fundo-portfolio2.jpg");
+    background-size: cover;
+}
+
+
+.skills h3 {
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    color: #cccaca;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.card {
+    background-image: linear-gradient(190deg, rgba(255, 255, 255, 0.7), #b9b9b9), url("./imagens/imgfundoskills.jpg");
+    background-position: center;
+    transition: 0.3s;
+    text-align: center;
+    width: 30%;
+    padding: 30px 20px;
+    border-radius: 10px;
+    display: inline-block;
+
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(172, 172, 172, 0.4);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.icon-card {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+}
+
+.card-content {
+
+    text-decoration: none;
+    text-shadow: none;
+    padding: 2px 16px;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+
+.contato{
+    
+    background: linear-gradient(190deg, rgba(255, 255, 255, 0.404), #b9b9b954);
+   
+}
+
+footer {
+    font-size: 15px;
+    font-weight: normal;
+    text-shadow: none;
+    color: #969696;
+    background-color: #222222;
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: #d8d8d8;
+    text-transform: uppercase;
+}
+
+footer p {
+    padding-top: 10px;
+}
+
+.titulo-contato {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.subtitulo-contato {
+    text-align: center;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+
+.lista-contato a {
+    text-align: center;
+    font-weight: normal;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.container-contato {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    
+    text-align: center;
+  
+}
+
+.container-skills {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+  
+}
+
+.lista-contato {
+
+    box-sizing: border-box;
+    width: 22%;
+    padding: 2.5% 1.5%;
+    border: 1px solid #fffbfb;
+    margin: 2em 0.5em;
+    border-radius: 20px;
+    
+}
+
+.lista-contato:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+
+}
+
+.img-lista-contato {
+    width: 48px;
+    padding: 5px 0;
+}
+
+.imagem-contato {
+    width: 100%;
+    border-radius: 10px;
+    height: 560px;
+
+}
+
+.caixa-img {
+    width: 40%;
+      
+}
+
+.caixa-contato{
+    width: 50%;
+    border: solid #ffffff 1px;
+    height: 650px;
+    border-radius: 10px;
+    
+} 
+  
+
+form {
+    padding: 2% 10% 0 10%;
+    
+
+}
+
+.input-padrao {
+    padding: 0.7em;
+    width: 100%;
+    border-radius: 8px;
+    background: #4b4b4b;
+    border: solid 1px #cccccc;
+    font-size: 18px;
+    font-family: 'Leto', sans-serif;
+    margin: 5px auto 1.2em;
+}
+
+.button {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #C78C19;
+    transition: 1s all;
+
+}
+
+.button:hover {
+    background-color: #C78C19;
+    font-weight: bold;
+    transform: scale();
+
+}
+
+@media screen and (max-width: 480px) {
+    .container-header, .container {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        width: auto;
+    }
+
+    .container-skills {
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+    }
+
+    .card {
+        margin: 2em auto;
+        width: 80%;
+        
+    }
+
+    .container-contato, .contato {
+        width: auto;
+        flex-direction: column;
+        margin: 2em auto;
+        padding: 0;
+    }
+
+    .lista-contato {
+        width: 80%;
+        margin: 2em auto;
+        
+    }
+
+    .lista-contato:hover {
+        transition: none;
+        transform: none;
+        
+    }
+
+    .caixa-img {
+        display: none;
+    }
+    
+    .caixa-contato {
+        width: 80%;
+        margin: 0 0 2em 0;
+    }
+
+
+}
+
+
+
